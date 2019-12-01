@@ -8,8 +8,9 @@ const HomeScreen = ({navigation}) => {
   return (
   <View>
     <Text style={styles.text}>Hello this is my first react.native project :)</Text>
-    <Button onPress={() => navigation.navigate('Component')} title='Click me'/>
-    <Button onPress={() => navigation.navigate('List')} title='Click it'/>
+    <Button onPress={() => navigation.navigate('Component')} title='Component'/>
+    <Button onPress={() => navigation.navigate('List')} title='List'/>
+    <Button onPress={() => navigation.navigate('Image')} title='Image'/>
   </View>
         )
  
